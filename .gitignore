@@ -42,3 +42,5 @@
 
 # Debug information
 *.pdb
+# Uncomment when setting up project if using remedybg
+#*.rdbg
