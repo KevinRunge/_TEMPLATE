@@ -22,7 +22,7 @@ REM
 REM ======================= RELEASE BUILD ============================ 
 REM ECHO === Windows x64 Release build ===
 REM CALL ..\version.bat ..\src\version.h
-REM cl /nologo /FC /Fe..\build\win64\%PROJECT_NAME%.exe /I%INCLUDES% /Oi /O2 ..\src\*.cpp /link %LIBS% /incremental:no /opt:ref /SUBSYSTEM:WINDOWS
+REM cl /nologo /FC /Fe..\build\win64\%PROJECT_NAME%.exe /DNDEBUG /I%INCLUDES% /Oi /O2 ..\src\*.cpp /link %LIBS% /incremental:no /opt:ref /SUBSYSTEM:WINDOWS
 REM ======================= RELEASE BUILD ============================ 
 POPD
 
